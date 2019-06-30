@@ -2,31 +2,44 @@ body{
     background-color: blueviolet
 }
 
-.topline{    background-color: rgb(255, 102, 0); height: 3px; width: 100% }
-
-
-.logomenu{
-    width: 100%; background-color: rgb(12, 12, 12); float: left; padding-top: 20px;
-    padding-bottom: 20px; padding-left: 10px; padding-right: 10px;
+.topline{    
+    background-color: rgb(255, 102, 0); 
+    height: 3px; 
+    width: 100%;
+    margin-bottom: 30px;
 }
 
-.logomenuwrap{
-     
+.logo{
+    width: 14%; 
+    border: 1px blue solid; 
+    float: left; 
+    color: aliceblue; 
 }
 
-
-.logomenuitem{
-    width: 18%; border: 5px blue solid; float: left; color: aliceblue; padding-top: 20px;
-    padding-bottom: 20px; padding-left: 10px; padding-right: 10px;
-}
-
-
-
-.logomenutext{
-    border: 2px gray solid;
+.top-banner-info{
+    width: 20%;
     float: left;
-    width: 50%;
-    margin-left: 15px; font: 15px arial, sans-serif; font-weight: 700; 
+}
+
+.top-banner-info img{
+    width: 10%;
+    float: left;
+}
+
+.top-banner-info div{
+    width: 90%;
+    float: left;
+}
+
+.search-panel{
+    width: 14%;
+    float: left;
+}
+
+.top-banner{
+    width: 70%; 
+    background-color: rgb(160, 150, 150); 
+    margin: 0 auto;
 }
 
 .menubar{
