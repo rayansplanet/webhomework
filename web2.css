@@ -1,5 +1,5 @@
 body{
-    background-color: blueviolet
+    background-color: #212121
 }
 
 .topline{    
@@ -9,25 +9,32 @@ body{
     margin-bottom: 30px;
 }
 
+
+.top-banner{
+    width: 80%; 
+    margin: 0 auto;
+}
+
 .logo{
     width: 14%; 
-    border: 1px blue solid; 
+    margin-right: 20px;
     float: left; 
     color: aliceblue; 
 }
 
 .top-banner-info{
-    width: 20%;
+    color: white;
+    width: 15%;
     float: left;
 }
 
 .top-banner-info img{
-    width: 10%;
+    width: 16%;
     float: left;
 }
 
 .top-banner-info div{
-    width: 90%;
+    width: 84%;
     float: left;
 }
 
@@ -36,17 +43,62 @@ body{
     float: left;
 }
 
-.top-banner{
-    width: 70%; 
-    background-color: rgb(160, 150, 150); 
-    margin: 0 auto;
-}
+
 
 .menubar{
-   padding-top: 10px;padding-bottom: 20px; padding-left: 50px; padding-right: 10px;
-    background-color: rgba(12, 12, 12, 0.466); color: aliceblue;
+    margin-top: 20px;
+    padding:10px 0px 10px 80px;
+    background-color: rgba(12, 12, 12, 0.466); 
+    color: aliceblue;
+    width: 100%;
+    float: left;
+        
+}
+
+.menucontent{
+    margin-left: 50px;
+
+}
+
+.menu-button{
+    list-style-type: none;
 }
 
 li {
-    float: left; width: 5%
+    float: left; width: 8%
+    
+}
+
+.btn-group{
+    background-color: rgba(0, 0, 255, 0);
+}
+
+.my-custom-color{ 
+    color: aliceblue;
+    background-color:rgba(12, 12, 12, 0.466);
+
+}
+
+.slider{
+    float: left;
+}
+
+.band{
+        width: 74%;
+    margin: 0 auto;
+}
+
+.band-box{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    float: left;
+}
+
+.blockquote{
+    margin-top: 50px;
+    background-color: rgba(12, 12, 12, 0.466);
+    color: aliceblue;
+    width: 100%;
+    float: left;
 }
